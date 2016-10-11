@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubViewController2" customModule="SkeletonWithContainerView" customModuleProvider="target">
+            <connections>
+                <outlet property="closureButton" destination="c76-aH-UyY" id="Wh3-rs-it7"/>
+                <outlet property="closureWithWeakSelfButton" destination="DWZ-Kk-sBd" id="SCD-a9-NQX"/>
+                <outlet property="handlerButton" destination="1dR-SB-dfs" id="FDw-qG-ai6"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Y2J-6g-apN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sub View Controller 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFU-YR-uwe">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c76-aH-UyY" customClass="Button" customModule="SkeletonWithContainerView" customModuleProvider="target">
+                    <frame key="frameInset" minX="62.309120582373339" minY="154.00000000000023" width="247.99999999999994" height="29.999999999999986"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Closure"/>
+                    <connections>
+                        <action selector="handleClosureTapped:" destination="-1" eventType="touchUpInside" id="nol-wK-2QI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dR-SB-dfs" customClass="Button" customModule="SkeletonWithContainerView" customModuleProvider="target">
+                    <frame key="frameInset" minX="62" minY="264" width="248.00000000000006" height="30.000000000000014"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Handler"/>
+                    <connections>
+                        <action selector="handleHandlerTapped:" destination="-1" eventType="touchUpInside" id="4Vm-7M-e9K"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWZ-Kk-sBd" customClass="Button" customModule="SkeletonWithContainerView" customModuleProvider="target">
+                    <frame key="frameInset" minX="63" minY="203" width="247.99999999999994" height="29.999999999999986"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Closure w/ weak self"/>
+                    <connections>
+                        <action selector="handleCloseWithWeakSelfTapped:" destination="-1" eventType="touchUpInside" id="deV-iO-FaV"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="SFU-YR-uwe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="104" id="FKV-3P-oHn"/>
+                <constraint firstItem="SFU-YR-uwe" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="JwK-so-gIv"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
