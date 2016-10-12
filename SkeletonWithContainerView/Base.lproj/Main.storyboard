@@ -81,10 +81,10 @@
             </objects>
             <point key="canvasLocation" x="2756" y="-139.43028485757122"/>
         </scene>
-        <!--Sub View Controller3-->
+        <!--Normal View Controller With Table View Added View Controller-->
         <scene sceneID="Y2i-gy-A9z">
             <objects>
-                <viewController id="AsR-uF-V64" customClass="SubViewController3" customModule="SkeletonWithContainerView" customModuleProvider="target" sceneMemberID="viewController"/>
+                <viewController id="AsR-uF-V64" customClass="NormalViewControllerWithTableViewAddedViewController" customModule="SkeletonWithContainerView" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6si-NS-x69" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2756" y="341.82908545727139"/>

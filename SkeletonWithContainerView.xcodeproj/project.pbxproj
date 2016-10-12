@@ -18,8 +18,9 @@
 		674B782B1DAC4B8F00EAB846 /* SubViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 674B782A1DAC4B8F00EAB846 /* SubViewController1.xib */; };
 		67624F981DAC4C4C00D6B7F6 /* SubViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67624F971DAC4C4C00D6B7F6 /* SubViewController2.swift */; };
 		67624F9A1DAC4C6300D6B7F6 /* SubViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67624F991DAC4C6300D6B7F6 /* SubViewController2.xib */; };
-		67624F9D1DAC4CA400D6B7F6 /* SubViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67624F9C1DAC4CA400D6B7F6 /* SubViewController3.xib */; };
-		67624F9F1DAC4CAE00D6B7F6 /* SubViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67624F9E1DAC4CAE00D6B7F6 /* SubViewController3.swift */; };
+		67624F9D1DAC4CA400D6B7F6 /* NormalViewControllerWithTableViewAddedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67624F9C1DAC4CA400D6B7F6 /* NormalViewControllerWithTableViewAddedViewController.xib */; };
+		67624F9F1DAC4CAE00D6B7F6 /* NormalViewControllerWithTableViewAddedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67624F9E1DAC4CAE00D6B7F6 /* NormalViewControllerWithTableViewAddedViewController.swift */; };
+		676250301DAEAE8700D6B7F6 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6762502F1DAEAE8700D6B7F6 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +58,9 @@
 		674B782A1DAC4B8F00EAB846 /* SubViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubViewController1.xib; sourceTree = "<group>"; };
 		67624F971DAC4C4C00D6B7F6 /* SubViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController2.swift; sourceTree = "<group>"; };
 		67624F991DAC4C6300D6B7F6 /* SubViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubViewController2.xib; sourceTree = "<group>"; };
-		67624F9C1DAC4CA400D6B7F6 /* SubViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubViewController3.xib; sourceTree = "<group>"; };
-		67624F9E1DAC4CAE00D6B7F6 /* SubViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController3.swift; sourceTree = "<group>"; };
+		67624F9C1DAC4CA400D6B7F6 /* NormalViewControllerWithTableViewAddedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NormalViewControllerWithTableViewAddedViewController.xib; sourceTree = "<group>"; };
+		67624F9E1DAC4CAE00D6B7F6 /* NormalViewControllerWithTableViewAddedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalViewControllerWithTableViewAddedViewController.swift; sourceTree = "<group>"; };
+		6762502F1DAEAE8700D6B7F6 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,8 +163,9 @@
 		67624FA01DAC4CC500D6B7F6 /* SubViewController3 */ = {
 			isa = PBXGroup;
 			children = (
-				67624F9C1DAC4CA400D6B7F6 /* SubViewController3.xib */,
-				67624F9E1DAC4CAE00D6B7F6 /* SubViewController3.swift */,
+				67624F9E1DAC4CAE00D6B7F6 /* NormalViewControllerWithTableViewAddedViewController.swift */,
+				67624F9C1DAC4CA400D6B7F6 /* NormalViewControllerWithTableViewAddedViewController.xib */,
+				6762502F1DAEAE8700D6B7F6 /* TableViewCell.xib */,
 			);
 			name = SubViewController3;
 			sourceTree = "<group>";
@@ -279,10 +282,11 @@
 			files = (
 				674B78031DAC482000EAB846 /* LaunchScreen.storyboard in Resources */,
 				674B782B1DAC4B8F00EAB846 /* SubViewController1.xib in Resources */,
+				676250301DAEAE8700D6B7F6 /* TableViewCell.xib in Resources */,
 				67624F9A1DAC4C6300D6B7F6 /* SubViewController2.xib in Resources */,
 				674B78001DAC482000EAB846 /* Assets.xcassets in Resources */,
 				674B77FE1DAC482000EAB846 /* Main.storyboard in Resources */,
-				67624F9D1DAC4CA400D6B7F6 /* SubViewController3.xib in Resources */,
+				67624F9D1DAC4CA400D6B7F6 /* NormalViewControllerWithTableViewAddedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67624F9F1DAC4CAE00D6B7F6 /* SubViewController3.swift in Sources */,
+				67624F9F1DAC4CAE00D6B7F6 /* NormalViewControllerWithTableViewAddedViewController.swift in Sources */,
 				674B78291DAC4B8100EAB846 /* SubViewController1.swift in Sources */,
 				674B77FB1DAC482000EAB846 /* ViewController.swift in Sources */,
 				67624F981DAC4C4C00D6B7F6 /* SubViewController2.swift in Sources */,
